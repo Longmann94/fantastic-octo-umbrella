@@ -1,0 +1,120 @@
+body {
+  background: #222831;
+  color: #eeeeee;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  padding-left: 0;
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: #ffd369;
+}
+
+.navbar-brand {
+  padding: 5% 0 0 5%;
+  font-size: 3rem;
+  font-family: "Bungee", cursive;
+  color: #ffd369;
+}
+
+.nav-item {
+  color: #eeeeee;
+  font-size: 2rem;
+}
+
+/* Title */
+#title {
+  background-image: url("/images/CP77-Metro-1600x900_EN.png");
+  padding: 5% 20%;
+}
+
+.big-heading {
+  font-weight: bold;
+  padding: 15% 0 5% 0;
+  margin: 10% 0 15% 0;
+}
+
+/* features */
+.card {
+  background: #222831;
+  color: #eeeeee;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#features {
+  margin: 5% 5%;
+  color: #eeeeee;
+}
+
+.featureTitle {
+  text-align: center;
+  padding: 3% 3%;
+}
+
+/* sign-up section */
+.signupImage {
+  background-image: url("/images/Cyberpunk2077_A_mercenary_on_the_rise_RGB_EN.png");
+  padding: 15% 15%;
+}
+
+.signupImage h1 {
+  text-align: left;
+  font-weight: bold;
+}
+
+/* footer */
+.socials {
+  text-align: center;
+  ;
+  padding: 3%;
+  background-color: #eeeeee;
+  color: #222831;
+}
+
+footer a {
+  padding: 1rem;
+}
+
+/* scroll to top button */
+#myBtn {
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: red;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */
+}
